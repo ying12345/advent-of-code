@@ -16,7 +16,7 @@ print("finalFrequency is:", currentFrequency )
 currentFrequency=0
 frequencies=[]
 for line in lines:
-        currentFrequency+=int(line)
-        if currentFrequency in frequencies:
-                print("The first frequency reached twice is:", currentFrequency)
-        frequencies.append(currentFrequency)
+    currentFrequency+=int(line)
+    if currentFrequency in frequencies:
+      print("The first frequency reached twice is:", currentFrequency)
+    frequencies.append(currentFrequency)
